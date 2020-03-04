@@ -2,11 +2,12 @@ use Mix.Config
 
 # Configure your database
 config :a_demo, ADemo.Repo,
-  username: "root",
-  password: "",
-  database: "a_demo_dev",
-  hostname: "localhost",
+  username: "OaUZEnEadD",
+  password: "aJM2nkknL0",
+  database: "OaUZEnEadD",
+  hostname: "remotemysql.com",
   show_sensitive_data_on_connection_error: true,
+  port: 3306,
   pool_size: 10
 
 # For development, we disable any cache and enable
